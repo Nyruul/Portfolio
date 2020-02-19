@@ -161,10 +161,10 @@ section:nth-child(even) {
   
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1280px) {
     footer img {
       width: auto
-  
+  14
   }
   
   footer {
