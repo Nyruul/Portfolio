@@ -21,6 +21,7 @@ main{
 
 #home{
   padding-top: 51px;
+  font-family: "Open Sans"
 }
 
 .topnav {
@@ -42,13 +43,20 @@ main{
 }
 
 footer {
-  display: center;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #aaa;
   padding-top: 5px;
+}
+
+#footer img{
+  display:flex;
+  justify-content: space-around;
+
+  
+    
 }
 
 
@@ -157,8 +165,9 @@ section:nth-child(even) {
   
   }
   
-  footer img {
+  #footer img {
       width: 44px
+      
   
   }
   
