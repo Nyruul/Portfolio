@@ -59,19 +59,23 @@ main{
   position: absolute;
   right: 0;
   top: 0;
+  padding: 0 4px;
+  size: 10px;
 }
 
 /* Add a grey background color on mouse-over */
-.topnav a:hover {
+/* .topnav a:hover {
   background-color: #ddd;
   color: black;
-}
+}*/
+
+
 
 /* Style the active link (or home/logo) */
-.active {
+/* .active {
   background-color: grey;
   color: white;
-}
+} */
 
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -135,7 +139,7 @@ section:nth-child(even) {
   .topnav a {
     font: 100;
     color: white;
-    padding: 15px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 25px;
     display: block;
@@ -176,6 +180,11 @@ section:nth-child(even) {
   
   
   }
-  
+  /* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
   
   }
