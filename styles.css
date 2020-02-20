@@ -3,11 +3,13 @@
   font-family: "Open Sans", sans-serif; 
 }
 
+
+
 body {
+  color: black;
   display:flex;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  color: #0;
   text-align: center;
   line-height: 1.5;
   margin: 0;
@@ -25,6 +27,10 @@ main{
 
 }
 
+.tech{
+  padding: 0 10px
+
+}
 .topnav {
   background-color: #aaa;
   flex-direction: row;
@@ -52,11 +58,9 @@ footer {
   padding-top: 5px;
 }
 
-#footer img{
-  display:flex;
+footer a{
   justify-content: space-around;
-
-  
+  padding: 0 10px;
     
 }
 
@@ -82,7 +86,7 @@ section {
 }
 
 section:nth-child(even) {
-  background-color: #ddd;
+  background-color: #87CEFA;
 }
 
 @media only screen and (min-width: 800px) {
