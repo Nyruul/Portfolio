@@ -5,9 +5,9 @@
 
 body {
   display:flex;
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  color: #444;
+  color: #0;
   text-align: center;
   line-height: 1.5;
   margin: 0;
@@ -22,6 +22,7 @@ main{
 #home{
   padding-top: 51px;
   font-family: "Open Sans"
+
 }
 
 .topnav {
@@ -90,7 +91,7 @@ section:nth-child(even) {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   position: block;
 }
 
@@ -107,6 +108,7 @@ section:nth-child(even) {
   text-decoration: none;
   font-size: 17px;
   display: block;
+  background-color: black;
 }
 
 /* Style the hamburger menu */
@@ -137,7 +139,7 @@ section:nth-child(even) {
     display:flex;
     font-family: "Open Sans", sans-serif; 
     font-size: 30px;
-    color: #444;
+    color: black;
     text-align: center;
     line-height: 1.5;
     margin: 0;
